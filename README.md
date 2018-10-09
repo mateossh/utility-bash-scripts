@@ -24,7 +24,9 @@ export PATH="$(pwd):$PATH"
 ### ✂️ Extract any archive
 
 Script: [extract](extract)  
-Dependencies: [tar](https://www.gnu.org/software/tar/), [gzip](https://www.gnu.org/software/gzip/), [p7zip](https://www.7-zip.org/), [unrar](https://www.rarlab.com/rar_add.htm)
+Dependencies: [tar](https://www.gnu.org/software/tar/), [gzip](https://www.gnu.org/software/gzip/), [p7zip](https://www.7-zip.org/), [unrar](https://www.rarlab.com/rar_add.htm), [bzip2](http://www.bzip.org/)
+
+* Extracting .dmg files works only on macOS / Mac OS X *
 
 ```sh
 extract <path to archive>
